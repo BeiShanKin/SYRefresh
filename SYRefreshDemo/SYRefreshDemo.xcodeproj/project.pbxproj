@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283B69FB1C97BE530025CD5C /* SYWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B69FA1C97BE530025CD5C /* SYWaitView.m */; };
+		283B69FE1C97BECF0025CD5C /* SYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B69FD1C97BECF0025CD5C /* SYTableView.m */; };
+		283B6A021C97BF520025CD5C /* UIScrollView+SYRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B6A011C97BF520025CD5C /* UIScrollView+SYRefresh.m */; };
+		2876B5E61C97204000DC7CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2876B5E51C97204000DC7CDE /* main.m */; };
+		2876B5E91C97204000DC7CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2876B5E81C97204000DC7CDE /* AppDelegate.m */; };
+		2876B5EC1C97204000DC7CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2876B5EB1C97204000DC7CDE /* ViewController.m */; };
+		2876B5EF1C97204000DC7CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2876B5ED1C97204000DC7CDE /* Main.storyboard */; };
+		2876B5F11C97204000DC7CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2876B5F01C97204000DC7CDE /* Assets.xcassets */; };
+		2876B5F41C97204000DC7CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2876B5F21C97204000DC7CDE /* LaunchScreen.storyboard */; };
+		2876B5FF1C97204000DC7CDE /* SYRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2876B5FE1C97204000DC7CDE /* SYRefreshDemoTests.m */; };
+		2876B60A1C97204000DC7CDE /* SYRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2876B6091C97204000DC7CDE /* SYRefreshDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2876B5FB1C97204000DC7CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2876B5D91C97204000DC7CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2876B5E01C97204000DC7CDE;
+			remoteInfo = SYRefreshDemo;
+		};
+		2876B6061C97204000DC7CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2876B5D91C97204000DC7CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2876B5E01C97204000DC7CDE;
+			remoteInfo = SYRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283B69F91C97BE530025CD5C /* SYWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWaitView.h; sourceTree = "<group>"; };
+		283B69FA1C97BE530025CD5C /* SYWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWaitView.m; sourceTree = "<group>"; };
+		283B69FC1C97BECF0025CD5C /* SYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTableView.h; sourceTree = "<group>"; };
+		283B69FD1C97BECF0025CD5C /* SYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTableView.m; sourceTree = "<group>"; };
+		283B6A001C97BF520025CD5C /* UIScrollView+SYRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SYRefresh.h"; sourceTree = "<group>"; };
+		283B6A011C97BF520025CD5C /* UIScrollView+SYRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SYRefresh.m"; sourceTree = "<group>"; };
+		2876B5E11C97204000DC7CDE /* SYRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2876B5E51C97204000DC7CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2876B5E71C97204000DC7CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2876B5E81C97204000DC7CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2876B5EA1C97204000DC7CDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2876B5EB1C97204000DC7CDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2876B5EE1C97204000DC7CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2876B5F01C97204000DC7CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2876B5F31C97204000DC7CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2876B5F51C97204000DC7CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2876B5FA1C97204000DC7CDE /* SYRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2876B5FE1C97204000DC7CDE /* SYRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRefreshDemoTests.m; sourceTree = "<group>"; };
+		2876B6001C97204000DC7CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2876B6051C97204000DC7CDE /* SYRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2876B6091C97204000DC7CDE /* SYRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRefreshDemoUITests.m; sourceTree = "<group>"; };
+		2876B60B1C97204000DC7CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2876B5DE1C97204000DC7CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B5F71C97204000DC7CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B6021C97204000DC7CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283B6A041C9811360025CD5C /* SYRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				283B69F91C97BE530025CD5C /* SYWaitView.h */,
+				283B69FA1C97BE530025CD5C /* SYWaitView.m */,
+				283B6A001C97BF520025CD5C /* UIScrollView+SYRefresh.h */,
+				283B6A011C97BF520025CD5C /* UIScrollView+SYRefresh.m */,
+			);
+			name = SYRefresh;
+			sourceTree = "<group>";
+		};
+		2876B5D81C97204000DC7CDE = {
+			isa = PBXGroup;
+			children = (
+				2876B5E31C97204000DC7CDE /* SYRefreshDemo */,
+				2876B5FD1C97204000DC7CDE /* SYRefreshDemoTests */,
+				2876B6081C97204000DC7CDE /* SYRefreshDemoUITests */,
+				2876B5E21C97204000DC7CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2876B5E21C97204000DC7CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2876B5E11C97204000DC7CDE /* SYRefreshDemo.app */,
+				2876B5FA1C97204000DC7CDE /* SYRefreshDemoTests.xctest */,
+				2876B6051C97204000DC7CDE /* SYRefreshDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2876B5E31C97204000DC7CDE /* SYRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				283B6A041C9811360025CD5C /* SYRefresh */,
+				2876B5E71C97204000DC7CDE /* AppDelegate.h */,
+				2876B5E81C97204000DC7CDE /* AppDelegate.m */,
+				2876B5EA1C97204000DC7CDE /* ViewController.h */,
+				2876B5EB1C97204000DC7CDE /* ViewController.m */,
+				283B69FC1C97BECF0025CD5C /* SYTableView.h */,
+				283B69FD1C97BECF0025CD5C /* SYTableView.m */,
+				2876B5ED1C97204000DC7CDE /* Main.storyboard */,
+				2876B5F01C97204000DC7CDE /* Assets.xcassets */,
+				2876B5F21C97204000DC7CDE /* LaunchScreen.storyboard */,
+				2876B5F51C97204000DC7CDE /* Info.plist */,
+				2876B5E41C97204000DC7CDE /* Supporting Files */,
+			);
+			path = SYRefreshDemo;
+			sourceTree = "<group>";
+		};
+		2876B5E41C97204000DC7CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2876B5E51C97204000DC7CDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2876B5FD1C97204000DC7CDE /* SYRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2876B5FE1C97204000DC7CDE /* SYRefreshDemoTests.m */,
+				2876B6001C97204000DC7CDE /* Info.plist */,
+			);
+			path = SYRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		2876B6081C97204000DC7CDE /* SYRefreshDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2876B6091C97204000DC7CDE /* SYRefreshDemoUITests.m */,
+				2876B60B1C97204000DC7CDE /* Info.plist */,
+			);
+			path = SYRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2876B5E01C97204000DC7CDE /* SYRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2876B60E1C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemo" */;
+			buildPhases = (
+				2876B5DD1C97204000DC7CDE /* Sources */,
+				2876B5DE1C97204000DC7CDE /* Frameworks */,
+				2876B5DF1C97204000DC7CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYRefreshDemo;
+			productName = SYRefreshDemo;
+			productReference = 2876B5E11C97204000DC7CDE /* SYRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2876B5F91C97204000DC7CDE /* SYRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2876B6111C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemoTests" */;
+			buildPhases = (
+				2876B5F61C97204000DC7CDE /* Sources */,
+				2876B5F71C97204000DC7CDE /* Frameworks */,
+				2876B5F81C97204000DC7CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2876B5FC1C97204000DC7CDE /* PBXTargetDependency */,
+			);
+			name = SYRefreshDemoTests;
+			productName = SYRefreshDemoTests;
+			productReference = 2876B5FA1C97204000DC7CDE /* SYRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2876B6041C97204000DC7CDE /* SYRefreshDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2876B6141C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemoUITests" */;
+			buildPhases = (
+				2876B6011C97204000DC7CDE /* Sources */,
+				2876B6021C97204000DC7CDE /* Frameworks */,
+				2876B6031C97204000DC7CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2876B6071C97204000DC7CDE /* PBXTargetDependency */,
+			);
+			name = SYRefreshDemoUITests;
+			productName = SYRefreshDemoUITests;
+			productReference = 2876B6051C97204000DC7CDE /* SYRefreshDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2876B5D91C97204000DC7CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SY;
+				TargetAttributes = {
+					2876B5E01C97204000DC7CDE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2876B5F91C97204000DC7CDE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2876B5E01C97204000DC7CDE;
+					};
+					2876B6041C97204000DC7CDE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2876B5E01C97204000DC7CDE;
+					};
+				};
+			};
+			buildConfigurationList = 2876B5DC1C97204000DC7CDE /* Build configuration list for PBXProject "SYRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2876B5D81C97204000DC7CDE;
+			productRefGroup = 2876B5E21C97204000DC7CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2876B5E01C97204000DC7CDE /* SYRefreshDemo */,
+				2876B5F91C97204000DC7CDE /* SYRefreshDemoTests */,
+				2876B6041C97204000DC7CDE /* SYRefreshDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2876B5DF1C97204000DC7CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2876B5F41C97204000DC7CDE /* LaunchScreen.storyboard in Resources */,
+				2876B5F11C97204000DC7CDE /* Assets.xcassets in Resources */,
+				2876B5EF1C97204000DC7CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B5F81C97204000DC7CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B6031C97204000DC7CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2876B5DD1C97204000DC7CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2876B5EC1C97204000DC7CDE /* ViewController.m in Sources */,
+				2876B5E91C97204000DC7CDE /* AppDelegate.m in Sources */,
+				2876B5E61C97204000DC7CDE /* main.m in Sources */,
+				283B69FB1C97BE530025CD5C /* SYWaitView.m in Sources */,
+				283B69FE1C97BECF0025CD5C /* SYTableView.m in Sources */,
+				283B6A021C97BF520025CD5C /* UIScrollView+SYRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B5F61C97204000DC7CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2876B5FF1C97204000DC7CDE /* SYRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2876B6011C97204000DC7CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2876B60A1C97204000DC7CDE /* SYRefreshDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2876B5FC1C97204000DC7CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2876B5E01C97204000DC7CDE /* SYRefreshDemo */;
+			targetProxy = 2876B5FB1C97204000DC7CDE /* PBXContainerItemProxy */;
+		};
+		2876B6071C97204000DC7CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2876B5E01C97204000DC7CDE /* SYRefreshDemo */;
+			targetProxy = 2876B6061C97204000DC7CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2876B5ED1C97204000DC7CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2876B5EE1C97204000DC7CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2876B5F21C97204000DC7CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2876B5F31C97204000DC7CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2876B60C1C97204000DC7CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2876B60D1C97204000DC7CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2876B60F1C97204000DC7CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2876B6101C97204000DC7CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2876B6121C97204000DC7CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYRefreshDemo.app/SYRefreshDemo";
+			};
+			name = Debug;
+		};
+		2876B6131C97204000DC7CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYRefreshDemo.app/SYRefreshDemo";
+			};
+			name = Release;
+		};
+		2876B6151C97204000DC7CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYRefreshDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2876B6161C97204000DC7CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYRefreshDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2876B5DC1C97204000DC7CDE /* Build configuration list for PBXProject "SYRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2876B60C1C97204000DC7CDE /* Debug */,
+				2876B60D1C97204000DC7CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2876B60E1C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2876B60F1C97204000DC7CDE /* Debug */,
+				2876B6101C97204000DC7CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2876B6111C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2876B6121C97204000DC7CDE /* Debug */,
+				2876B6131C97204000DC7CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2876B6141C97204000DC7CDE /* Build configuration list for PBXNativeTarget "SYRefreshDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2876B6151C97204000DC7CDE /* Debug */,
+				2876B6161C97204000DC7CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2876B5D91C97204000DC7CDE /* Project object */;
+}
